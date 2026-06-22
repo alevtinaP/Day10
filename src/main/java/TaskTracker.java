@@ -1,10 +1,11 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class TaskTracker {
     private List<Task> tasks;
 
-    public TaskTracker(List<Task> tasks) {
-        this.tasks = tasks;
+    public TaskTracker() {
+        this.tasks = new ArrayList<>();
             }
 
             public void addTask(String title) {
