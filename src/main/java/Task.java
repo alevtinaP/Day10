@@ -25,7 +25,7 @@ public void complete() {
 
     //Выводим информацию о задаче
     public void printInfo() {
-        String status = isCompleted ? "[ ]" : "[x]";
+        String status = isCompleted ? "[x]" : "[ ]";
         System.out.println(status + " " + title);
     }
 }

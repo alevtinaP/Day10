@@ -26,7 +26,8 @@ public class TaskTracker {
                 System.out.println("Задача" + title + "готова");
             }
         }
-        public void checkTaskStatus (String title){
+    }
+        public void checkTaskStatus(String title) {
             for (Task task : tasks) {
                 if (task.getTitle().equalsIgnoreCase(title)) {
                     if (task.isCompleted()) {
@@ -54,10 +55,10 @@ public class TaskTracker {
 
             System.out.println("==============СТАТИСТИКА============" );
             System.out.println("Всего задач: " + total);
-            System.out.println("Всего выполненных задач: " + completed;
+            System.out.println("Всего выполненных задач: " + completed);
             System.out.println("Всего НЕ выполненных задач: " + open);
 
         }
     }
 
-}
+
