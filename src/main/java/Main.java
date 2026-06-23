@@ -13,10 +13,10 @@ public class Main {
         tracker.printAllTask();
 
         //проверка статуса
-         tracker.checkTaskStatus("Проснуться");
+        tracker.checkTaskStatus(" Проснуться ");
 
-         //изменение статуса
-        tracker.completeTask("Выпить кофе");
+        //изменение статуса
+        tracker.completeTask(" Выпить кофе ");
 
         tracker.printAllTask();
         tracker.printStatistic();
